@@ -15,4 +15,4 @@ Lower portion of webpage
 
 
 # Webpage url
-![horiseon_digital_marketing](https://djavanw.github.io/digitalmarketing/)
+[horiseon_digital_marketing](https://djavanw.github.io/digitalmarketing/)
