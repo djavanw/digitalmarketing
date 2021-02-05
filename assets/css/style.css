@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* styling for the h1 header/logo and top page header area */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .logo {
+    color: #d9dcd6;
+}
+
+/* styling for the wording in the header/nav are on right */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This is the backgroud cover for the page */
+.page-cover-img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* This is styling for the main section with its content */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Floats images in the main section left or right */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styles the three blue square article sections in the main area consolidate this section (change order - move higher in CSS */
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* 
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+} */
+
+/* Limits the image heights in the article area at 200px */
+.content img {
+    max-height: 200px;
+}
+/* 
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Styles the h2 headers in the article area */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* 
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
+
+/* Styles the section with the three asides */
+.sidenote {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Styles color and margins in the three aside areas */
+.benefit {
+    margin-bottom: 62px;
+    color: #ffffff;
+}
+
+/* .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+/* Styles h3 headers in aside section */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* 
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+
+/* Styles the icon images in the aside area */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* .benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+/* Styles the footer area of the .page-cover-img */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
