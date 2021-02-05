@@ -11,7 +11,7 @@ Upper portion of webpage
 [upper_screenshot](./assets/images/screenshot_upper_horiseon_pg.jpg)
 
 Lower portion of webpage
-[lower_screenshot](./assets/images/Screenshot_lower_horiseon_pg.jpg)
+[lower_screenshot](./assets/images/screenshot_lower_horiseon_pg.jpg)
 
 
 # Webpage url
