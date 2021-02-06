@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+/* The above styling is a page basic reset */
 
 body {
     background-color: #d9dcd6;
@@ -58,7 +59,7 @@ a {
     background-position: center;
 }
 
-/* This is styling for the main section with its content */
+/* This is styling for the main area with its content */
 main {
     width: 75%;
     display: inline-block;
@@ -69,7 +70,7 @@ p {
     font-size: 16px;
 }
 
-/* Floats images in the main section left or right */
+/* Floats images in the main area left or right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -80,7 +81,7 @@ p {
     margin-left: 25px;
 }
 
-/* Styles the three blue square article sections in the main area consolidate this section (change order - move higher in CSS */
+/* Styles the three blue square article sections in the main area. Consolidated this section (change order - move higher in CSS */
 .content {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,53 +91,16 @@ p {
     color: #ffffff;
 }
 
-/* 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* Limits the image heights in the article area at 200px */
+/* Limits the image heights in the article area at 200px.  Consolidated. */
 .content img {
     max-height: 200px;
 }
-/* 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Styles the h2 headers in the article area */
+/* Styles the h2 headers in the article area. Consolidated. */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 /* Styles the section with the three asides */
 .sidenote {
@@ -156,32 +120,11 @@ p {
     color: #ffffff;
 }
 
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* Styles h3 headers in aside section */
+/* Styles h3 headers in aside section. Consolidated. */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
 
 /* Styles the icon images in the aside area */
 .benefit img {
@@ -190,19 +133,7 @@ p {
     max-width: 150px;
 }
 
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* Styles the footer area of the .page-cover-img */
+/* Styles the footer area of the webpage */
 footer {
     padding: 30px;
     clear: both;
@@ -210,6 +141,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
