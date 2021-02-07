@@ -8,7 +8,7 @@ HTML classes and ids have been revised and enhanced for standards and search eng
 
 ## Screenshot of webpage
 Complete screenshot of Horiseon webpage
-![Image_of_Horiseon_Webpage](./assets/images/screenshot_horiseon_webpage.jpg)
+![Image_of_Horiseon_Webpage](./assets/images/screenshot_horiseon_webpage.png)
 
 ## Webpage url
 [Horiseon_Webpage_Live](https://djavanw.github.io/digitalmarketing/)
